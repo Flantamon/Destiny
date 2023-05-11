@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #cccccc;
+            margin-top: 20px;
+        }
+
+            th,
+            td {
+                padding: 10px;
+                border: 1px solid #cccccc;
+                color: #fff;
+                text-align: center;
+            }
+
+            th {
+                background-color: #4f4e4e;
+                color: #fff;
+            }
+
+            tr:nth-child(even) {
+                background-color: #4f4e4e;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Услуга</th>
+                    <th>Цена за 2 часа</th>
+                    <th>Цена за 12 часов</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Большой зал</td>
+                    <td>6 BYN</td>
+                    <td>30 BYN</td>
+                </tr>
+                <tr>
+                    <td>VIP-зал</td>
+                    <td>10 BYN</td>
+                    <td>40 BYN</td>
+                </tr>
+                <tr>
+                    <td>SUPER-VIP-зал</td>
+                    <td>20 BYN</td>
+                    <td>80 BYN</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
